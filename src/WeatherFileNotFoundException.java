@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
+public class WeatherFileNotFoundException extends Exception {
 
-public class WeatherFileNotFoundException {
+    public WeatherFileNotFoundException(String message) {
+        super(message);
+    }
 }
